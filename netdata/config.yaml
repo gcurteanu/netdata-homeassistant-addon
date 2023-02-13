@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Netdata
-version: "2.1.1"
+version: "2.1.2"
 slug: netdata
 description: Netdata - Monitor everything in real time
 url: "https://github.com/Gamma-Software/netdata-homeassistant-addon"
@@ -26,6 +26,8 @@ options:
   enable_log: true
   claim_url: https://app.netdata.cloud
   claim_token: xxxxxxxxxxxxxxxxxxxxxxx
+  claim_rooms:
+    - ROOM
 schema:
   hostname: str
   page_cache_size: int
@@ -34,4 +36,6 @@ schema:
   enable_log: bool
   claim_url: str
   claim_token: str
+  claim_rooms:
+    - str
 image: "ghcr.io/gamma-software/{arch}-netdata-homeassistant-addon"
