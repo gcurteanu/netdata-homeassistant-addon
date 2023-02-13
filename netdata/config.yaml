@@ -26,8 +26,6 @@ options:
   enable_log: true
   claim_url: https://app.netdata.cloud
   claim_token: xxxxxxxxxxxxxxxxxxxxxxx
-  claim_rooms:
-    - ROOM
 schema:
   hostname: str
   page_cache_size: int
@@ -36,6 +34,4 @@ schema:
   enable_log: bool
   claim_url: str
   claim_token: str
-  claim_rooms:
-    - str
 image: "ghcr.io/gamma-software/{arch}-netdata-homeassistant-addon"
