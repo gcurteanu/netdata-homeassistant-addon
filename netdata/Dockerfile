@@ -9,9 +9,9 @@ RUN apk update &&\
     apk add openssl
 
 # Execute during the build of the image
-RUN curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && \
-    sh /tmp/netdata-kickstart.sh --no-updates --stable-channel \
-    --disable-telemetry --dont-start-it --non-interactive
+#RUN curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && \
+#    sh /tmp/netdata-kickstart.sh --no-updates --stable-channel \
+#    --disable-telemetry --dont-start-it --non-interactive
 
 # Copy data for add-on
 COPY rootfs /
