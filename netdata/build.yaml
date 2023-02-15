@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 build_from:
-  amd64: "ghcr.io/home-assistant/amd64-base:3.14"
+  amd64: "netdata/netdata"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: Netdata"
   org.opencontainers.image.description: "Netdata https://www.netdata.cloud/ Monitor everything in real time. For free"
