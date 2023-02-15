@@ -24,7 +24,7 @@ privileged:
   - SYS_PTRACE
   - SYS_ADMIN
 environment:
-  - PGID=102
+  - "PGID=102"
 options:
   hostname: homeassistant
   page_cache_size: 32
