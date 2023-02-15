@@ -38,4 +38,4 @@ schema:
   claim_token: str
   claim_rooms:
     - str
-image: "ghcr.io/gamma-software/{arch}-netdata-homeassistant-addon"
+image: "ghcr.io/gcurteanu/{arch}-netdata-homeassistant-addon"
